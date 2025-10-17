@@ -16,8 +16,8 @@ p{
 }
 
 .aside-index{
-	background-image: linear-gradient(to right, green, lightgreen);
-	width: 200px;
+	background-image: linear-gradient(to right, green, yellow);
+	width: 12em;
 	height: 100vh;
 	margin-right: 2em;
 	float: left;
@@ -54,5 +54,6 @@ p{
 		width: 100%;
 		height: auto;
 		border-down: .2em solid green;
+		border-right: none;
 	}
 }
