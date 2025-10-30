@@ -53,6 +53,10 @@ a {
 	font-weight: 300;
 }
 
+.item{
+	margin-top: 2rem;
+}
+
 .item-title {
 	font-size: 1.6rem;
 	color: white;
@@ -86,11 +90,13 @@ a {
 	}
 }
 
-.right-group {
+.right-group,
+.left-group {
 	display: flex;
 	flex-direction: column;
 	gap: 5rem;
 }
+
 
 /* Profile */
 
@@ -149,18 +155,11 @@ a {
 }
 
 
-/* Skills */
+/* Programming */
 
-.skills-list {
+.programming-list {
+	float: left;
 	margin-top: 1rem;
 	margin-left: 2rem;
 	line-height: 2;
 }
-
-/* Education */
-
-.education-item {
-	margin-top: 2rem;
-}
-
-
