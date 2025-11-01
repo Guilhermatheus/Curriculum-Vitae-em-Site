@@ -149,12 +149,16 @@ hr {
 	flex: 1;
 }
 
-@media screen only and (max-width: 768px) {
-	.profile {
-		margin-bottom: 0;
-	}
+@media only screen and (max-width: 768px) {
+	
+	.group-3,
 	.group-4 {
 		flex-direction: column;
+	}
+	
+	.group-3 > * {
+		margin: 0;
+		text-align: left;
 	}
 }
 
@@ -164,6 +168,12 @@ hr {
 .profile {
 	grid-column: 1 / -1;
 	margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+	.profile {
+		margin-bottom: 0;
+	}
 }
 
 .profile-container {
@@ -246,4 +256,11 @@ hr {
 .skills-title {
 	margin: 0 auto;
 	grid-column: 1 / -1;
+}
+
+@media only screen and (max-width: 768px) {
+	.skills-title {
+		margin: 0;
+		text-align: left;
+	}
 }
